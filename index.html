@@ -8,40 +8,53 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet"
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css"
+ integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj"
+ crossorigin="anonymous">
+
     <!-- Index.css -->
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="shortcut icon" href="images/whatsapp_fevicon.ico">
+
+       <!-- fontawesome link -->
+    <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
 
     <title>Whatsapp</title>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-3 bg-light">
-          <div class="d-flex">
-            <div class="p-2">
-              <img class="rounded-circle profile-pic" src="Y:\Edwisor assignment\Edwisor assignment building_CODES\Fourth Assignment-Advance Responsive Design(Whatsapp)\images\Human Resources icons\039-employee-1.png"> 
-            </div>
-            <div class="ml-auto p-2">
-              <img class="new_chat_icon" src="Y:\Edwisor assignment\Edwisor assignment building_CODES\Fourth Assignment-Advance Responsive Design(Whatsapp)\images\plus-icon.png">
+        <div class="col-xs-12 col-sm-7 col-md-6 col-lg-4 bg-light">
+          <div class="row">
+
+            <div class="col-8">
+              <img class="rounded-circle profile-pic" src="images\Human Resources icons\code.png">
             </div>
 
-            <div class="p-2 dots_menu_row">
+            <div class=" col-2" data-toggle="tooltip" title="New Chat">
+              <button type="button" class="btn btn-light ">
+                <img  class="new_chat_icon" src="images\plus-icon.png">
+              </button>
+            </div>
+
+            <div class="col-2 dots_menu_row">
                 <!-- Button to Open the Modal -->
-              <button type="button" class="btn bg-light" data-toggle="modal" data-target="#myModal"><div class="dots_menu">
+              <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal" data-toggle="tooltip"  title="Menu">
+                <div class="dots_menu">
               </button>
 
               <!-- The Modal -->
               <div class="modal fade" id="myModal">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-dialog-centered modal-sm">
                   <div class="modal-content">
                     <div class="list-group">
-                      <a href="#" class="list-group-item">New Group</a>
-                      <a href="#" class="list-group-item">Profile</a>
-                      <a href="#" class="list-group-item">Archive</a>
-                      <a href="#" class="list-group-item">Starred</a>
-                      <a href="#" class="list-group-item">Settings</a>
-                      <a href="#" class="list-group-item">Logout</a>
+                      <a href="#" class="list-group-item list-group-item-action">New Group</a>
+                      <a href="#" class="list-group-item list-group-item-action">Profile</a>
+                      <a href="#" class="list-group-item list-group-item-action">Archive</a>
+                      <a href="#" class="list-group-item list-group-item-action">Starred</a>
+                      <a href="#" class="list-group-item list-group-item-action">Settings</a>
+                      <a href="#" class="list-group-item list-group-item-action">Logout</a>
                     </div>                   
                   </div>
                 </div>
@@ -50,21 +63,189 @@
             </div>
             <!-- dots_menu_row ends -->
           </div>
-        </div>
+          <!-- 1st row of left column ends -->
 
-        <div class="col-9 bg-light">
-          <h2>world</h2>
-        </div> 
+          <div class="row">
+            <div class="col bg-light">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                 <button type="button" class="btn btn-light">
+                  <i class="fas fa-search"  aria-hidden="true"></i>
+                 </button>
+                  <input type="text" class="form-control" placeholder= "Search or start a new chat">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd row of left column ends -->
+
+          <div class="row main_chat_sidebar">
+            <div class="col-12 list-group bg-light"> 
+              <div style="position: relative; overflow: auto;height: 660px">
+
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\2.png">
+                    </div>
+                    <div class="col-8">
+                       <h5>Rajat</h5>
+                       <p>lets meet tommorow</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time">10:04
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\1.png">
+                    </div>
+                    <div class="col-8">
+                      <h5>Prashant</h5>
+                      <p>kaisa h bhai</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time">16:18</span>
+                      <span class="badge badge-success">2</span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\3.png">
+                    </div>
+                    <div class="col-8">
+                      <h5>Nidhi Didi</h5>
+                      <p>Machine Gun Kelly sun bhai.</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time">12:34
+                      </span>
+                    </div>
+                  </div>
+                 </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\4.png">
+                    </div>
+                    <div class="col-8">
+                  <h5>Family Group</h5>
+                  <p>anytime brother.</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time">14:11
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\5.png">
+                    </div>
+                    <div class="col-8">
+                      <h5>Keyboards</h5>
+                      <p>Black bagpack is mine.</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time">14:11
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\6.png">
+                    </div>
+                    <div class="col-8">
+                      <h5>Amit Wedding ceremony</h5>
+                      <p>haan</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time">13:18
+                      </span>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                  <div class="col-2">
+                    <img class="rounded-circle user-pic" src="images\Human Resources icons\7.png">
+                  </div>
+                  <div class="col-8">
+                <h5>CS Group Interaction</h5>
+                <p>This isn't that simple.</p>
+                  </div>
+                  <div class="col-2">
+                    <span class="time">14:12
+                    </span>
+                  </div>
+                </div>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\8.png">
+                    </div>
+                    <div class="col-8">
+                      <h5>Arpit</h5>
+                      <p>btaao na</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time">15:02
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                  <div class="col-2">
+                    <img class="rounded-circle user-pic" src="images\Human Resources icons\9.png">
+                  </div>
+                  <div class="col-8">
+                    <h5>Fufaji</h5>
+                    <p>Mai bta dunga</p>
+                  </div>
+                  <div class="col-2">
+                    <span class="time">15:11</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          </div>
+          <!-- 3rd row of left column ends -->
+        </div>
+        <!-- left column ends -->
+
+        <div class="right_column d-none d-sm-block col-xs-0 col-sm-5 col-md-6 col-lg-8">
+          <div class="row justify-content-center align-items-center">
+            <img class="picture img-fluid" src="images/keep_your_phone_connected.png">
+            <div class="right_col_text">
+              <h1 class="display-4">Keep your phone connected</h1><br>
+              <p>Whatsapp connects to your phone to sync messages.To reduce your data usage connect your phone to your Wi-fi.</p>
+            </div>
+          </div>
+        </div>
+        <!-- right_column ends -->
+
+
 
       </div>
-        <!-- row div ends -->
+      <!-- container-fluid div ends -->
     </div>
-    <!-- container-fluid div ends -->
+    <!-- main row ends -->
   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   </body>
 </html>
