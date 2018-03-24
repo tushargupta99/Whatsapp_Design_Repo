@@ -13,35 +13,34 @@
  integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj"
  crossorigin="anonymous">
 
-    <!-- Index.css -->
+    <!-- Index .css file -->
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="shortcut icon" href="images/whatsapp_fevicon.ico">
 
-       <!-- fontawesome link -->
+    <!-- fontawesome link -->
     <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
 
     <title>Whatsapp</title>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-7 col-md-6 col-lg-4 bg-light">
-          <div class="row">
-
-            <div class="col-8">
+      <div class="row left_column">
+        <div class="left_column col-xs-12 col-sm-7 col-md-6 col-lg-4 bg-light">
+          <div class="row left_column_navbar">
+            <div class="col-9">
               <img class="rounded-circle profile-pic" src="images\Human Resources icons\code.png">
             </div>
 
-            <div class=" col-2" data-toggle="tooltip" title="New Chat">
+            <div class=" mr-auto col-1" data-toggle="tooltip" title="New Chat">
               <button type="button" class="btn btn-light ">
-                <img  class="new_chat_icon" src="images\plus-icon.png">
+                <i class="fas fa-plus"></i>
               </button>
             </div>
 
-            <div class="col-2 dots_menu_row">
+            <div class="mr-auto col-1">
                 <!-- Button to Open the Modal -->
               <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal" data-toggle="tooltip"  title="Menu">
-                <div class="dots_menu">
+                <i class="fas fa-ellipsis-v"></i>
               </button>
 
               <!-- The Modal -->
@@ -86,21 +85,6 @@
                 <a href="#" class="list-group-item list-group-item-action">
                   <div class="row">
                     <div class="col-2">
-                      <img class="rounded-circle user-pic" src="images\Human Resources icons\2.png">
-                    </div>
-                    <div class="col-8">
-                       <h5>Rajat</h5>
-                       <p>lets meet tommorow</p>
-                    </div>
-                    <div class="col-2">
-                      <span class="time">10:04
-                      </span>
-                    </div>
-                  </div>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                  <div class="row">
-                    <div class="col-2">
                       <img class="rounded-circle user-pic" src="images\Human Resources icons\1.png">
                     </div>
                     <div class="col-8">
@@ -108,8 +92,23 @@
                       <p>kaisa h bhai</p>
                     </div>
                     <div class="col-2">
-                      <span class="time">16:18</span>
-                      <span class="badge badge-success">2</span>
+                      <span class="time-meta pull-right">18:18
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="row">
+                    <div class="col-2">
+                      <img class="rounded-circle user-pic" src="images\Human Resources icons\2.png">
+                    </div>
+                    <div class="col-8">
+                       <h5>Rajat</h5>
+                       <p>lets meet tommorow</p>
+                    </div>
+                    <div class="col-2">
+                      <span class="time-meta pull-right">10:04
+                      </span>
                     </div>
                   </div>
                 </a>
@@ -123,7 +122,7 @@
                       <p>Machine Gun Kelly sun bhai.</p>
                     </div>
                     <div class="col-2">
-                      <span class="time">12:34
+                      <span class="time-meta pull-right">12:34
                       </span>
                     </div>
                   </div>
@@ -138,7 +137,7 @@
                   <p>anytime brother.</p>
                     </div>
                     <div class="col-2">
-                      <span class="time">14:11
+                      <span class="time-meta pull-right">14:11
                       </span>
                     </div>
                   </div>
@@ -153,7 +152,7 @@
                       <p>Black bagpack is mine.</p>
                     </div>
                     <div class="col-2">
-                      <span class="time">14:11
+                      <span class="time-meta pull-right">14:11
                       </span>
                     </div>
                   </div>
@@ -168,7 +167,7 @@
                       <p>haan</p>
                     </div>
                     <div class="col-2">
-                      <span class="time">13:18
+                      <span class="time-meta pull-right">13:18
                       </span>
                     </div>
                   </div>
@@ -184,7 +183,7 @@
                 <p>This isn't that simple.</p>
                   </div>
                   <div class="col-2">
-                    <span class="time">14:12
+                    <span class="time-meta pull-right">14:12
                     </span>
                   </div>
                 </div>
@@ -198,7 +197,7 @@
                       <p>btaao na</p>
                     </div>
                     <div class="col-2">
-                      <span class="time">15:02
+                      <span class="time-meta pull-right">15:02
                       </span>
                     </div>
                   </div>
@@ -213,7 +212,8 @@
                     <p>Mai bta dunga</p>
                   </div>
                   <div class="col-2">
-                    <span class="time">15:11</span>
+                    <span class="time-meta pull-right">15:10
+                    </span>
                   </div>
                 </div>
               </a>
@@ -223,8 +223,7 @@
           <!-- 3rd row of left column ends -->
         </div>
         <!-- left column ends -->
-
-        <div class="right_column d-none d-sm-block col-xs-0 col-sm-5 col-md-6 col-lg-8">
+        <div class="right_column d-none d-sm-block col-sm-5 col-md-6 col-lg-8">
           <div class="row justify-content-center align-items-center">
             <img class="picture img-fluid" src="images/keep_your_phone_connected.png">
             <div class="right_col_text">
