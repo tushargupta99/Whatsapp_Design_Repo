@@ -15,7 +15,7 @@ body{
 }
 
 .user-pic{
-    height:50px;
+  height:50px;
 	width:50px;
 	margin-right: 20px;
 	float: left;
@@ -53,6 +53,6 @@ body{
 
 .right_column .right_column_wallpaper {
 	background-image: url(images/chat_wallpaper.jpg);
-    height:85vh;
-    padding:0px 0px;
+  height:85vh;
+  padding:0px 0px;
 }
