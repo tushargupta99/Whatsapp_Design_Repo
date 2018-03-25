@@ -21,6 +21,13 @@ body{
 	float: left;
 }
 
+.on_click_chat{
+	text-decoration: none;
+}
+.on_click_chat:hover{
+	text-decoration: none;
+}
+
 .list-group-item{
 	padding-bottom: 0px;
 }
