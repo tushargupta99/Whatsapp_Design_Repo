@@ -58,3 +58,7 @@ body{
 .right_column{
 	background-color: #F7F9FA
 }
+
+.row .right_column .right_column_navbar{
+  margin: 1vh 0vw;
+}
