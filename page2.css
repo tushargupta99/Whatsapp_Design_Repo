@@ -14,6 +14,10 @@ body{
 	padding-left: 2px;
 }
 
+.badge{
+  margin-left:10px;
+}
+
 .user-pic{
   height:50px;
 	width:50px;
@@ -31,10 +35,9 @@ body{
 	margin-top: 2px;
 }
 
-.time{
+.time-meta{
   text-align: right;
-  padding-top: 2vh; 
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .picture{
